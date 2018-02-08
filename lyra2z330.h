@@ -1,5 +1,5 @@
-#ifndef LYRA2REV2_H
-#define LYRA2REV2_H
+#ifndef LYRA2Z330_H
+#define LYRA2Z330_H
 
 #ifdef __cplusplus
 extern "C" {
