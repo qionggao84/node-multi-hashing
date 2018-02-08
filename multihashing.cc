@@ -20,6 +20,8 @@ extern "C" {
     #include "lyra2.h"
     #include "lyra2re.h"
     #include "lyra2z.h"
+    #include "lyra2rev2.h"
+    #include "lyra2z330.h"
     #include "neoscrypt.h"
     #include "nist5.h"
     #include "quark.h"
