@@ -27,11 +27,11 @@
  * online backup system.
  */
 
-#include "lyra2rev2.h"
 #include <stdlib.h>
 #include <stdint.h>
 #include <string.h>
 #include <stdio.h>
+#include "lyra2rev2.h"
 #include "lyra2.h"
 
 void lyra2rev2_hash(const char* input, char* output, uint32_t height)
