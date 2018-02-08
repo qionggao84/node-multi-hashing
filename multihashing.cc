@@ -69,7 +69,7 @@ NAN_METHOD(lyra2rev2) {
 
     uint32_t input_len = Buffer::Length(target);
 
-    lyra2rev2_hash(input, output);
+    lyra2rev2_hash(input, output, input_len);
 
     info.GetReturnValue().Set(Nan::NewBuffer(output, 32).ToLocalChecked());
 }
@@ -89,7 +89,7 @@ NAN_METHOD(lyra2z330) {
 
     uint32_t input_len = Buffer::Length(target);
 
-    lyra2z330_hash(input, output);
+    lyra2z330_hash(input, output, input_len);
 
     info.GetReturnValue().Set(Nan::NewBuffer(output, 32).ToLocalChecked());
 }
