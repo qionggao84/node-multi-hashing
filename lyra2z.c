@@ -5,7 +5,7 @@
 
 #include "lyra2z.h"
 
-#include <sha3/sph_blake.h>
+#include "sha3/sph_blake.h"
 
 #define _ALIGN(x) __attribute__ ((aligned(x)))
 
