@@ -17,8 +17,8 @@
  * OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
  * EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-#ifndef LYRA2Z_H_
-#define LYRA2Z_H_
+#ifndef LYRA2z_H_
+#define LYRA2z_H_
 
 #include <stdint.h>
 
