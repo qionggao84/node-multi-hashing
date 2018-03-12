@@ -18,7 +18,6 @@
                 "lyra2.c",
                 "lyra2re.c",
                 "lyra2z.c",
-                "lyra2Z.c",
                 "lyra2rev2.c",
                 "lyra2z330.c",
                 "neoscrypt.c",
